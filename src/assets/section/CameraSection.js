@@ -197,9 +197,9 @@ const CameraSection = () => {
    
   return (
     <Section ref={sectionRef}>
-        <V1 src={v1}  ref={videoRef1}  type='video/mp4' autoPlay muted loop/>
+        <V1 src={v1}  ref={videoRef1}  type='video/mp4' playsInline autoPlay muted loop/>
         
-        <V2 src={v2}  ref={videoRef2} type='video/mp4' autoPlay muted loop/>
+        <V2 src={v2}  ref={videoRef2} type='video/mp4' playsInline autoPlay muted loop/>
         <TopLeftImage src={a1} ref={image1} />
       <TopRightImage src={a2} ref={image2} />
       <BottomLeftImage src={a3} ref={image3} />

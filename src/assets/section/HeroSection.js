@@ -132,7 +132,7 @@ const HeroSection = () => {
     <Section>
     
     <VideoContainer>
-    <video src={backgroundVideo} ref={videoRef} type='video/mp4' autoPlay muted loop/>
+    <video src={backgroundVideo} ref={videoRef} type='video/mp4' playsInline autoPlay muted loop/>
     </VideoContainer>
         <Title>iPhone 14 Pro</Title>
         <TextContainer>
